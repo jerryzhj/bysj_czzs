@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaf"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="150dp">
+        <ImageView 
+            android:id="@+id/ImageView_missionGroupPic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp" 
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:paddingLeft="30dp"
+                android:text="任务组的基础信息"/>
+            <TextView 
+                android:id="@+id/TextView_MissionGroups_content"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="15sp"/>
+             <TextView 
+                android:id="@+id/TextView_MissionGroups_comment"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textSize="15sp"/>
+             <LinearLayout 
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" 
+                 android:layout_weight="1"
+                 android:orientation="horizontal"
+                 >
+                 <Button 
+                     android:id="@+id/button_upLoad_missionGroup"
+                     android:layout_width="match_parent"
+                     android:layout_weight="1"
+                     android:layout_height="match_parent"
+                     android:textSize="15sp"
+                     android:text="上传任务组"
+                     />
+                 <Button 
+                     android:id="@+id/button_AddToMissions"
+                     android:layout_width="match_parent"
+                     android:layout_weight="1"
+                     android:layout_height="match_parent"
+                     android:textSize="15sp"
+                     android:text="添加计划组"
+                     />
+             </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/ExpendableListView_show_MissionGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </ExpandableListView>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">个人成长助手</string>
+    <string name="menu">菜单</string>
+    <string name="title_section0">主页</string>
+    <string name="title_section1">任务管理</string>
+    <string name="title_section2">心情管理</string>
+    <string name="title_section3">添加任务组</string>
+    <string name="title_section4">查看本地任务组</string>
+    <string name="title_section5">查看网络任务组</string>
+    <string name="title_section6">退出</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">其他应用</string>
+    <string name="action_settings">系统设置</string>
+	<string name="add_comment">请在这里写下备注吧</string>
+	<string name="add_mood">记录您生活中每一个美好的瞬间</string>
+	<string name="host">http://192.168.43.245:8088/fileUpLoad/</string>
+	<string name="host2">http://192.168.73.1:8088/fileUpLoad/</string>
+	<string name="missiongroup_content_hint">请输入任务内容</string>
+	<string name="missiongroup_comment_hint">请输入任务</string>
+	<string name="title_alert">提示信息</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+</resources>
